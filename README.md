@@ -1,6 +1,5 @@
 # Dataquest Interactive Code System Wordpress Plugin
 
-
 ## Installation Instructions
 
 ### Admin Dashboard
@@ -58,13 +57,12 @@ The code provide here will be used in the checks
 To check variables between the answer-code and student code list them, common seperated on the attribue `check-vars=""` like `check-vars="x, count"`
 
 #### Checking output
-To check the output (i.e., stdout) add the attribute `check-stdout`. If you do not want to check the std out remove the attribute
+To check the output (i.e., stdout) add the attribute `check-stdout`. If you do not want to check the stdout remove the attribute.
 
 ## Example
 
 ```html
-<script src="//dqeditor.dataquest.io/dq_post_box.js"></script>
-<iframe name="dq_editor" width="100%" height=700 src="//dqeditor.dataquest.io/" style="border: none" >
+<iframe name="dq_editor" width="100%" height=700 >
   <pre id='initialization-code'>
     y = False
     print('smaller')
